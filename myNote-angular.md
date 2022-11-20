@@ -110,7 +110,11 @@ two way binding
  are instructions in the DOM
  * built-in 
  * custom
- * 
+  
+* structural directive - add or remove content
+* attribute directive - change the element (like a normal attribute, without a star)
+
+
  typically add custom directive with attribute selector
 
  * selector - add content to html
