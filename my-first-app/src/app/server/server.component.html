@@ -1,1 +1,3 @@
-<h3 [ngStyle]="{'background-color': getColor()}"> serer with ID : {{serverId}} is {{getServerStatus()}} ; </h3>
+<h3 [ngStyle]="{'background-color': getColor()}" 
+[ngClass]="{online: serverStatus === 'online'}"> 
+serer with ID : {{serverId}} is {{getServerStatus()}} ; </h3>
