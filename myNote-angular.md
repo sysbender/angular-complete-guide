@@ -105,3 +105,29 @@ two way binding
 ```js
  [(ngModel)] ="data"
 ```
+
+### directives
+ are instructions in the DOM
+ * built-in 
+ * custom
+ * 
+ typically add custom directive with attribute selector
+
+ * selector - add content to html
+ * component - is also directive
+
+
+```js
+
+<p appTurnGreen> receives a green background! </p>
+
+
+@Directive({
+    selector: '[appTurnGreen]'
+})
+
+
+export class TurnGreenDirective{
+    ...
+}
+```
